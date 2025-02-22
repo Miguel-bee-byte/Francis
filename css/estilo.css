@@ -46,11 +46,27 @@ nav li{
     height: 300px;
     background-image: url('https://conteudo.solutudo.com.br/wp-content/uploads/2020/01/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png'); 
     background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 32px;
-    font-weight: bold;
+    
+}
+
+/*Estilizando o Sobre nós*/
+.sobre_nos {
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left:40%;
+
+}
+
+/*Estilizando a imagem do Sobre Nós*/
+.img_sobrenos{
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+}
+
+/*Centralizando o "Sobre Nós"*/
+.titulo_sobrenos{
+    text-align: center;
+    clear: left;
 }
